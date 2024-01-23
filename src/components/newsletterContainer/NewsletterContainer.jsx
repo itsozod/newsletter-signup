@@ -39,6 +39,10 @@ export const NewsletterContainer = () => {
         <SubscribeForm />
       </div>
       <picture>
+        <source
+          srcSet="/illustration-sign-up-mobile.svg"
+          media="(max-width: 768px)"
+        ></source>
         <img
           src="/illustration-sign-up-desktop.svg"
           className={styles.default_pic}

@@ -7,6 +7,9 @@
   justify-content: center;
   align-items: center;
   border-radius: 12px;
+  @media screen and (max-width: 768px) {
+    flex-direction: column-reverse;
+  }
 }
 .letter_card {
   flex: 1.1;
@@ -28,8 +31,9 @@
 }
 picture {
   flex: 1;
+  width: 100%;
 }
 .default_pic {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
