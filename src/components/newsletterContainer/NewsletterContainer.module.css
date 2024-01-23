@@ -1,0 +1,20 @@
+.newsletter_container {
+  background-color: #fff;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  border-radius: 12px;
+}
+.letter_card {
+  flex: 2;
+  padding: 0px 20px;
+}
+picture {
+  flex: 1;
+}
+.default_pic {
+  max-width: 100%;
+  height: auto;
+}
