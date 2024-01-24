@@ -41,17 +41,22 @@ export const NewsletterContainer = () => {
       setError("Valid email required");
     } else {
       setError("");
-      setEmail("");
+      // setEmail("");
       setSuccess(true);
       setTimeout(() => {
-        alert("You signed up successfully");
+        alert(`You signed up successfully ${email}`);
       }, 500);
     }
+  };
+
+  const dismissMessage = () => {
+    setSuccess(false);
+    setEmail("");
   };
   return (
     <>
       {success ? (
-        <SuccessPage />
+        <SuccessPage email={email} dismissMessage={dismissMessage} />
       ) : (
         <div className={styles.newsletter_container}>
           <div className={styles.letter_card}>
