@@ -5,17 +5,17 @@ import { SuccessPage } from "../successPage/SuccessPage";
 const updatesArray = [
   {
     id: 1,
-    icon: "/icon-list.svg",
+    icon: "icon-list.svg",
     text: "Product discovery and building what matters",
   },
   {
     id: 2,
-    icon: "/icon-list.svg",
+    icon: "icon-list.svg",
     text: "Measuring to ensure updates are a success",
   },
   {
     id: 3,
-    icon: "/icon-list.svg",
+    icon: "icon-list.svg",
     text: "Add much more!",
   },
 ];
@@ -83,11 +83,11 @@ export const NewsletterContainer = () => {
           </div>
           <picture>
             <source
-              srcSet="/illustration-sign-up-mobile.svg"
+              srcSet="illustration-sign-up-mobile.svg"
               media="(max-width: 768px)"
             ></source>
             <img
-              src="/illustration-sign-up-desktop.svg"
+              src="illustration-sign-up-desktop.svg"
               className={styles.default_pic}
               alt=""
             />

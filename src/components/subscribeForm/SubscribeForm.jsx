@@ -1,17 +1,7 @@
 /* eslint-disable react/prop-types */
-// import { useState } from "react";
 import styles from "./SubscribeForm.module.css";
 
-export const SubscribeForm = ({
-  email,
-  error,
-  setEmail,
-  handleSubmit,
-}) => {
-  // const [email, setEmail] = useState("");
-  // const [error, setError] = useState("");
-
-
+export const SubscribeForm = ({ email, error, setEmail, handleSubmit }) => {
   return (
     <>
       <div className={styles.form_container}>

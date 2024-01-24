@@ -5,7 +5,7 @@ export const SuccessPage = ({ email, dismissMessage }) => {
   return (
     <div className={style.success_container}>
       <div className={style.success_card}>
-        <img src="/icon-success.svg" alt="" />
+        <img src="icon-success.svg" alt="" />
         <h1>Thanks for subscribing!</h1>
         <p>
           A confirmation email has been sent to {email}. Please open it and
